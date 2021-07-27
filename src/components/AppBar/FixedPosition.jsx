@@ -52,5 +52,4 @@ const FixedPosition = withStyles(styles)(({ classes }) => (
     </ul>
   </div>
 ));
-
 export default FixedPosition;

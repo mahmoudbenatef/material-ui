@@ -71,20 +71,6 @@ const NavItem = ({to,text,
     </Switch>
     </>
   );
-// const NavItem = ({ to,
-// text,
-// Icon,
-// onClick}) => (
-//   <Switch>
-//     <Route
-//       exact
-//       path={to}
-//       render={() => <NavListItem active={true} text={text}  Icon={Icon} onClick={onClick} />}
-//     />
-//     <Route path="/" render={() => <NavListItem text={text}  Icon={Icon} onClick={onClick} />} />
-//   </Switch>
-// );
-
 function DrawerItemNavigation({ classes }) {
   const [open, setOpen] = useState(false);
 
