@@ -1,11 +1,16 @@
-import { TextField } from '@material-ui/core';
+import { CssBaseline, TextField, ThemeProvider } from '@material-ui/core';
 import './App.css';
-import AppBarIntegration from "./components/AppBar/Tabs/AppBarIntegration"
+import TabAlignment from "./components/Snackbar/Test"
+import theme from './components/Theme';
 function App() {
   return (
-    <div className="App">
-      <AppBarIntegration />
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+
+      <div className="App">
+        <TabAlignment />
+      </div>
+    </ThemeProvider>
   );
 }
 export default App;

@@ -26,7 +26,9 @@ function AppBarIntegration({ classes }) {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Tabs value={value} onChange={onChange}>
+        <Tabs value={value} onChange={onChange}
+          indicatorColor="primary"
+          >
           <Tab label="Item One" />
           <Tab label="Item Two" />
           <Tab label="Item Three" />
